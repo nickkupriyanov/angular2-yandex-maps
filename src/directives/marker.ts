@@ -35,6 +35,7 @@ export class YaMarker implements OnChanges, OnDestroy {
   @Input() public iconImageSize: any;
   // [-5, -38]
   @Input() public iconImageOffset: any;
+  @Input() public hasBalloon: boolean;
 
   @Output() public markerClick: EventEmitter<void> = new EventEmitter<void>();
   // tslint:disable-next-line:max-line-length

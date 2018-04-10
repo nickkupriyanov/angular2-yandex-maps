@@ -79,7 +79,8 @@ export class YaMapsAPIWrapper {
                     iconLayout: marker.iconLayout,
                     iconImageHref: marker.iconImageHref,
                     iconImageSize: marker.iconImageSize,
-                    iconImageOffset: marker.iconImageOffset
+                    iconImageOffset: marker.iconImageOffset,
+                    hasBalloon: marker.hasBalloon,
                 });
             map.geoObjects.add(m);
             return m;
